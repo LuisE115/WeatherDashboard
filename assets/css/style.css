@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 3vh;
+}
+
+header {
+    color: white;
+    background-image: linear-gradient(to right, rgb(78, 112, 204), rgb(49, 22, 122));
+    text-align: center;
+    padding: 1%;
+    margin-bottom: 1.5%;
+}
+
+header h1 {
+    font-size: 25px;
+}
+
+.container {
+    display: flex;
+}
+.search {
+   margin: 5px;
+   width: 35%; 
+}
+
+.search h2 {
+    font-size: 25px;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+.searchbar {
+    border-bottom: solid 2px black;
+    width: auto;
+}
+
+#searcharea {
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+#searchb {
+    background-color: rgb(130, 156, 214);
+    text-align: center;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.dashboard {
+    width: 100%;
+}
+
+.current {
+    border: solid 1px black;
+    padding: 10px 5px;
+}
+
+.current h2 {
+    font-size: 25px;
+}
+
+.current p {
+    padding: 10px 0;
+}
+
+.forecast {
+    width: 100%;
+    margin: 10px;
+}
+
+#dayh3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+.fcontainer {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fdays {
+    background-color: rgb(86, 98, 158);
+    color: white;
+    padding: 3px;
+    width: 18%;
+}
+
+.fdays p {
+    padding: 10px 0;
+}
+
+#currentUV {
+    border-radius: 5px;
+    padding: 2px 10px;
+    color: white;
+}
+

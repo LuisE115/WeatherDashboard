@@ -22,8 +22,13 @@ function lookforcity() {
             console.log(cities);
             localStorage.setItem(cityid, JSON.stringify(city));
         })
+    getcityweather();
     })
 }
 
 document.getElementById("searchb").addEventListener("click", lookforcity);
+
+function getcityweather() {
+    
+}
 
