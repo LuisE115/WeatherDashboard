@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <title>Weather Dashboard</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Weather Dashboard</h1>
+        </header>
+
+        <section class="search">
+            <div class="searchbar">
+                <h2>Search for a City:</h2>
+                <input type="text" id="searcharea" placeholder="Search for a city">
+                <P id="searchb">Search</P>
+            </div>
+            <div class="prevsearch">
+            </div>
+        </section>
+
+        <section class="dashboard">
+            <div class="current">
+                <h2 id="city">City/Date</h2>
+                <p>Temp: <span id="currentTemp"></span></p>
+                <p>Wind: <span id="currentWind"></span></p>
+                <p>Humidity: <span id="currentHum"></span></p> 
+                <p>UV Index: <span id="currentUV"></span>        
+            </div>
+            <div class="forecast">
+                <h3 id="5day">5-Day Forecast:</h3>
+                <div class="fcontainer">
+                    <div class="fdays">
+                        <h3 id="date1">Date</h3>
+                        <p>Temp: <span id="temp1"></span></p>
+                        <p>Wind: <span id="wind1"></span></p>
+                        <p>Humidity: <span id="hum1"></span></p> 
+                    </div>
+                    <div class="fdays">
+                        <h3 id="date2">Date</h3>
+                        <p>Temp: <span id="temp2"></span></p>
+                        <p>Wind: <span id="wind2"></span></p>
+                        <p>Humidity: <span id="hum2"></span></p> 
+                    </div>
+                    <div class="fdays">
+                        <h3 id="date3">Date</h3>
+                        <p>Temp: <span id="temp3"></span></p>
+                        <p>Wind: <span id="wind3"></span></p>
+                        <p>Humidity: <span id="hum3"></span></p> 
+                    </div>
+                    <div class="fdays">
+                        <h3 id="date4">Date</h3>
+                        <p>Temp: <span id="temp4"></span></p>
+                        <p>Wind: <span id="wind4"></span></p>
+                        <p>Humidity: <span id="hum4"></span></p> 
+                    </div>
+                    <div class="fdays">
+                        <h3 id="date5">Date</h3>
+                        <p>Temp: <span id="temp5"></span></p>
+                        <p>Wind: <span id="wind5"></span></p>
+                        <p>Humidity: <span id="hum5"></span></p> 
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="./assets/js/script.js"></script>
+    </body>
+</html>
